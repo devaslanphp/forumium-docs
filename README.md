@@ -12,7 +12,7 @@ It's based on the best technologies to make it **simple**, **fast**, with a **cl
 
 ## History
 
-First of all, we must mention that the development of the **graphical part**, and thing that gave us the **majority of the development ideas**, was based on the Open Source [Flarum](https://flarum.org/) discussion system.
+First of all, we must mention that the development of the **graphical part**, and what gave us the **majority of the development ideas**, was based on the Open Source [Flarum](https://flarum.org/) discussion system.
 
 ## Goals
 
