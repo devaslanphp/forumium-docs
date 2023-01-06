@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Forumium - Documentation</title>
@@ -7,7 +8,48 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    .sidebar {
+      background-color: rgba(72, 137, 239, .05) !important;
+    }
+
+    .sidebar-nav>ul {
+      margin: 0 !important;
+    }
+
+    .sidebar ul li a {
+      height: 40px !important;
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: flex-start !important;
+      align-items: center !important;
+      text-align: left !important;
+      padding: 0 10px !important;
+    }
+
+    .sidebar ul li a:hover,
+    .sidebar ul li.active>a {
+      background-color: rgba(72, 137, 239, .1) !important;
+      text-decoration: none !important;
+    }
+
+    .sidebar-nav>ul>li>a {
+      font-weight: 600 !important;
+      font-size: 16px !important;
+      text-transform: uppercase !important;
+    }
+
+    .sidebar ul li>a[href="#/for-developers?id=for-developers"] {
+      background-color: rgba(0, 0, 0, .1) !important;
+      color: #000000 !important;
+      margin-top: 30px !important;
+      font-weight: 400 !important;
+      font-size: 14px !important;
+      letter-spacing: 1px !important;
+    }
+  </style>
 </head>
+
 <body>
   <div data-app id="main">Please wait...</div>
   <script>
@@ -26,5 +68,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.22/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.22/components/prism-php.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22/components/prism-javascript.min.js"></script>
 </body>
+
 </html>

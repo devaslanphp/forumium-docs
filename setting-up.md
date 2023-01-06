@@ -12,6 +12,8 @@ First of all you need to clone the Forumium repository, to do that go to Forumiu
 git clone https://github.com/devaslanphp/forumium.git
 ```
 
+> Be sure to clone the `master` branch to get the latest developments
+
 ## Dependencies
 
 As mentioned before, Forumium uses the **Filament TALLkit** and other dependencies like **TailwindCSS**...

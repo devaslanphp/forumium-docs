@@ -30,3 +30,5 @@ As mentioned in the **Goals** section, Forumium is an Open Source project, so it
 > Check the Github repository for more details about contributions.
 
 [![Github](_media/github.png)](https://github.com/devaslanphp/forumium)
+
+> If you think something is missing, please create an issue in the Forumium Github repository: [here](https://github.com/devaslanphp/forumium/issues) and choose the issue type **Missing documentation**
