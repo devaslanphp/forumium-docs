@@ -13,3 +13,8 @@ Stay up to date with all the latest Forumium releases
 - Add mentions to Reply rich editor
 - Remove unused parameter `$recipient` from Email Notification constructor
 - Put CustomUserAvatar in `Helpers` namespaces instead of `Core`
+
+## Release 1.0.2
+
+**January 12th, 2023**
+- Bugs fix: Members seeder
